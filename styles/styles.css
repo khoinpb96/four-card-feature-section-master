@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+header {
+  text-align: center;
+  max-width: 450px;
+  margin: auto;
+  padding: 70px 0 50px;
+}
+
+header h1,
+header h2 {
+  font-size: 24px;
+  color: #4c4e61;
+}
+
+header h2 {
+  font-weight: 200;
+}
+
+header p {
+  font-size: 12.8px;
+  margin-top: 0.8rem;
+  color: #a3a5ae;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col {
+  max-width: 334px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  min-height: 220px;
+  padding: 28px;
+  border-top: 3px solid;
+  border-radius: 4px;
+  margin: 12.8px;
+  -webkit-box-shadow: 0px 1px 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 1rem rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  margin-top: auto;
+  margin-left: auto;
+  display: block;
+  width: 55px;
+}
+
+.card h3 {
+  color: #4c4e61;
+  font-size: 1rem;
+}
+
+.card p {
+  color: #a3a5ae;
+  font-size: 0.7rem;
+  margin-top: 1rem;
+}
+
+.red {
+  border-color: #ea5353;
+}
+
+.cyan {
+  border-color: #45d3d3;
+}
+
+.orange {
+  border-color: #fcaf4a;
+}
+
+.blue {
+  border-color: #549ef2;
+}
+
+@media (max-width: 500px) {
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header {
+    padding: 70px 12.8px 50px;
+  }
+  header h1,
+  header h2 {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
